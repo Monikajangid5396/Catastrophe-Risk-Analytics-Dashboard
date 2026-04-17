@@ -1,0 +1,1001 @@
+Year,Region,Disaster Type,Severity Score,Claim Frequency,Claim Amount (USD)
+2023,Asia-Pacific,Earthquake,8.1,733,53192867.15
+2018,Asia-Pacific,Earthquake,7.5,980,106675463.59
+2018,Europe,Hurricane/Storm,5.2,2466,158823613.64
+2023,Latin America,Flood,4.8,366,5959315.85
+2020,North America,Flood,4.0,1122,42158976.57
+2019,Europe,Flood,5.2,779,29695092.31
+2019,Europe,Hurricane/Storm,8.7,2113,142574389.12
+2019,Asia-Pacific,Wildfire,5.8,108,7356891.58
+2023,Asia-Pacific,Tornado,7.7,46,840884.24
+2018,Asia-Pacific,Hurricane/Storm,8.3,2386,89037491.82
+2023,North America,Hurricane/Storm,7.8,2430,88293494.96
+2023,Asia-Pacific,Earthquake,8.1,542,66911738.64
+2022,Asia-Pacific,Flood,4.9,1378,46142216.0
+2018,North America,Hurricane/Storm,8.3,1680,37655352.65
+2022,Asia-Pacific,Earthquake,8.3,384,26169183.25
+2021,Asia-Pacific,Hurricane/Storm,7.0,686,33065627.86
+2018,Europe,Flood,4.4,529,12268645.52
+2018,Asia-Pacific,Flood,7.8,1326,15206415.79
+2018,North America,Flood,4.5,1027,45800526.79
+2019,Asia-Pacific,Flood,7.5,1146,30403268.65
+2019,North America,Earthquake,8.6,740,69711030.72
+2022,North America,Flood,4.5,789,21716943.96
+2022,Asia-Pacific,Flood,7.9,1446,60692306.33
+2018,Asia-Pacific,Flood,4.1,1035,14208860.93
+2022,Middle East & Africa,Tornado,6.1,70,3543682.3
+2019,North America,Tornado,5.3,149,5639943.36
+2023,Europe,Earthquake,7.6,248,21912933.13
+2023,Latin America,Hurricane/Storm,8.5,2269,54883944.24
+2023,Asia-Pacific,Wildfire,6.4,453,29690361.7
+2022,Asia-Pacific,Flood,5.2,1402,46542103.37
+2021,Asia-Pacific,Wildfire,6.8,297,16085126.75
+2019,Asia-Pacific,Hurricane/Storm,6.8,1159,83652101.05
+2021,Middle East & Africa,Flood,5.5,1041,12227473.53
+2022,Asia-Pacific,Hurricane/Storm,8.2,1290,102303243.75
+2020,Asia-Pacific,Hurricane/Storm,5.6,2475,54997412.28
+2018,Asia-Pacific,Hurricane/Storm,8.5,2290,161908416.74
+2019,North America,Tornado,4.1,83,3116552.4
+2023,Asia-Pacific,Flood,5.9,742,17468497.43
+2021,Asia-Pacific,Hurricane/Storm,8.4,2245,135735954.6
+2020,Asia-Pacific,Tornado,6.8,259,16312096.08
+2020,North America,Flood,6.5,788,39318865.09
+2019,Asia-Pacific,Earthquake,6.3,748,90051034.03
+2019,North America,Flood,5.2,259,3066466.44
+2020,Asia-Pacific,Flood,5.5,498,9844412.85
+2018,Europe,Hurricane/Storm,5.7,858,21225290.69
+2018,Latin America,Hurricane/Storm,6.0,2369,130269954.55
+2021,North America,Hurricane/Storm,6.8,1865,38351572.58
+2018,Asia-Pacific,Tornado,7.0,90,1715616.41
+2020,Latin America,Tornado,5.3,227,12023564.2
+2020,Europe,Flood,8.0,1189,16962429.4
+2022,Europe,Earthquake,7.0,816,64890829.52
+2020,Middle East & Africa,Hurricane/Storm,6.1,1659,119288808.77
+2018,Asia-Pacific,Tornado,8.1,264,16052820.82
+2023,Latin America,Hurricane/Storm,5.9,2142,88120289.24
+2021,Asia-Pacific,Hurricane/Storm,7.7,1976,130511335.02
+2022,Asia-Pacific,Flood,4.4,1485,53242632.17
+2018,Europe,Earthquake,8.0,849,53606862.37
+2021,Latin America,Flood,5.7,611,9339985.46
+2018,Asia-Pacific,Tornado,6.4,149,9040723.12
+2022,North America,Wildfire,6.9,462,23404874.47
+2020,Latin America,Wildfire,6.9,88,3507063.21
+2023,Middle East & Africa,Wildfire,7.9,253,24720347.22
+2022,Asia-Pacific,Earthquake,8.8,114,8714827.79
+2020,North America,Earthquake,8.6,368,39911811.37
+2022,Asia-Pacific,Tornado,4.5,129,5280128.38
+2019,Asia-Pacific,Tornado,5.5,123,6226368.36
+2023,Asia-Pacific,Earthquake,8.5,764,69393803.38
+2018,North America,Tornado,5.4,262,5603296.13
+2018,North America,Hurricane/Storm,6.6,1259,75828528.97
+2023,Asia-Pacific,Tornado,5.9,89,5669100.47
+2019,Asia-Pacific,Wildfire,7.5,193,6231997.04
+2020,Europe,Earthquake,9.3,975,84111888.78
+2018,Middle East & Africa,Earthquake,9.2,760,65259211.93
+2019,Europe,Flood,4.5,1131,15457305.69
+2018,North America,Hurricane/Storm,8.9,603,40526228.28
+2021,North America,Flood,6.3,340,14685522.59
+2020,Asia-Pacific,Hurricane/Storm,8.3,977,38800161.02
+2021,North America,Tornado,4.0,84,5822376.15
+2023,Asia-Pacific,Hurricane/Storm,5.4,2274,48997443.64
+2020,North America,Hurricane/Storm,6.0,1163,24361204.01
+2019,North America,Flood,5.7,432,17205095.95
+2020,Europe,Hurricane/Storm,7.1,723,34067995.12
+2020,North America,Hurricane/Storm,7.9,2361,170036515.39
+2019,Asia-Pacific,Earthquake,9.4,162,24277105.43
+2023,Asia-Pacific,Earthquake,6.4,829,116864198.73
+2020,North America,Flood,6.4,334,5025919.62
+2023,Asia-Pacific,Hurricane/Storm,7.8,1280,101987411.65
+2023,Asia-Pacific,Earthquake,8.1,201,25991231.47
+2023,North America,Hurricane/Storm,8.5,1629,103034893.45
+2018,North America,Earthquake,6.8,447,59335639.35
+2022,Europe,Hurricane/Storm,6.3,1140,68293377.83
+2023,Europe,Flood,7.7,337,4599710.15
+2019,North America,Earthquake,8.6,481,63096102.62
+2022,Asia-Pacific,Hurricane/Storm,7.2,1175,70735935.16
+2023,Europe,Wildfire,8.8,266,24143875.81
+2019,Asia-Pacific,Tornado,6.7,190,3932625.91
+2019,Asia-Pacific,Flood,5.9,421,10105919.66
+2021,Asia-Pacific,Flood,5.1,663,28037510.76
+2021,Asia-Pacific,Tornado,7.7,295,4850968.42
+2020,Latin America,Wildfire,6.1,142,6976307.66
+2023,Asia-Pacific,Tornado,5.6,102,6409929.78
+2023,Asia-Pacific,Earthquake,6.5,748,110091411.84
+2022,North America,Hurricane/Storm,6.5,1429,57808421.48
+2019,Europe,Hurricane/Storm,8.1,1662,92695434.56
+2023,Latin America,Flood,7.0,301,11124583.28
+2020,North America,Hurricane/Storm,6.9,1405,63015689.1
+2018,North America,Hurricane/Storm,6.4,727,26895211.02
+2019,Asia-Pacific,Earthquake,8.3,146,10519569.16
+2018,Middle East & Africa,Flood,4.8,632,25718596.05
+2020,Asia-Pacific,Flood,4.5,1218,48574528.09
+2021,North America,Earthquake,8.5,612,64793882.34
+2020,Asia-Pacific,Earthquake,7.4,859,46583764.27
+2018,North America,Tornado,7.9,229,10656968.98
+2019,Asia-Pacific,Earthquake,6.4,121,17741016.26
+2022,North America,Tornado,6.1,195,3870192.98
+2023,Asia-Pacific,Flood,6.4,1273,16734709.69
+2020,Latin America,Hurricane/Storm,5.9,2095,63034281.4
+2019,Asia-Pacific,Flood,6.0,915,22000250.3
+2023,Middle East & Africa,Hurricane/Storm,5.6,710,20438523.7
+2021,North America,Hurricane/Storm,8.0,1842,45168043.8
+2021,Middle East & Africa,Hurricane/Storm,6.9,1654,108490208.33
+2023,Europe,Tornado,6.5,175,10943376.17
+2021,Asia-Pacific,Flood,4.3,1105,38957222.31
+2019,Asia-Pacific,Hurricane/Storm,6.4,651,25144530.64
+2020,Europe,Flood,7.3,357,12775837.19
+2019,Middle East & Africa,Flood,6.4,987,28137856.29
+2019,Asia-Pacific,Hurricane/Storm,8.6,1421,105925599.3
+2023,Asia-Pacific,Flood,6.4,1226,19658227.2
+2022,North America,Flood,7.6,903,44513767.19
+2022,North America,Hurricane/Storm,5.2,1949,90171452.6
+2020,Europe,Hurricane/Storm,5.6,1263,94821249.88
+2023,Europe,Hurricane/Storm,7.7,607,40883644.85
+2022,Asia-Pacific,Flood,4.4,991,21173586.04
+2021,Asia-Pacific,Hurricane/Storm,8.6,2288,66403250.36
+2022,North America,Hurricane/Storm,8.7,1135,88600132.17
+2021,Asia-Pacific,Earthquake,8.1,186,15058223.11
+2020,Europe,Hurricane/Storm,8.3,1872,116381963.56
+2019,Latin America,Tornado,8.1,57,2880287.81
+2019,Europe,Earthquake,7.3,284,41213208.51
+2022,Europe,Hurricane/Storm,5.8,781,22880730.8
+2021,North America,Hurricane/Storm,7.0,1605,112522039.3
+2018,Latin America,Flood,5.3,1465,22329473.83
+2018,Europe,Flood,7.3,1479,62653026.45
+2018,North America,Earthquake,7.4,792,96591185.36
+2019,Middle East & Africa,Hurricane/Storm,8.0,2105,98799601.73
+2023,Asia-Pacific,Flood,7.2,1160,53544409.29
+2019,North America,Hurricane/Storm,7.3,1402,66876519.79
+2023,North America,Earthquake,7.8,265,34897617.85
+2021,Asia-Pacific,Flood,5.0,1184,53238178.52
+2022,Asia-Pacific,Flood,7.4,455,9738146.86
+2018,Asia-Pacific,Flood,7.6,501,21664176.24
+2021,North America,Tornado,7.7,188,12441079.73
+2021,Europe,Earthquake,7.3,495,73979004.89
+2022,Europe,Flood,7.7,886,36906529.79
+2021,North America,Flood,7.3,484,19531164.76
+2022,Europe,Hurricane/Storm,8.6,538,19021224.41
+2020,Asia-Pacific,Hurricane/Storm,7.9,1580,71724551.15
+2022,Asia-Pacific,Flood,4.5,688,18433598.96
+2018,Asia-Pacific,Earthquake,6.4,611,67010755.52
+2023,North America,Hurricane/Storm,6.0,794,29756197.5
+2023,North America,Earthquake,8.0,291,33883204.88
+2018,North America,Tornado,4.3,279,12533937.68
+2023,Asia-Pacific,Hurricane/Storm,5.1,2288,110300143.53
+2022,Asia-Pacific,Tornado,5.1,18,623522.94
+2020,North America,Flood,6.6,412,16834342.65
+2023,Asia-Pacific,Flood,4.2,1318,31028211.45
+2020,Asia-Pacific,Wildfire,7.7,406,25779855.9
+2018,North America,Flood,6.9,1137,13052022.78
+2020,North America,Hurricane/Storm,8.5,1146,87098588.58
+2021,Asia-Pacific,Tornado,6.4,139,2364965.8
+2019,Asia-Pacific,Flood,7.4,297,13255683.53
+2021,Europe,Flood,5.5,1019,40487222.08
+2018,Latin America,Earthquake,9.4,608,72477764.26
+2023,Europe,Hurricane/Storm,6.1,669,42565044.36
+2023,North America,Hurricane/Storm,8.3,1617,60841217.97
+2020,North America,Flood,5.2,1113,37958714.87
+2022,Europe,Hurricane/Storm,6.4,586,37274794.15
+2019,Latin America,Hurricane/Storm,6.7,1809,142552160.88
+2022,Latin America,Flood,6.6,944,28814128.09
+2018,Asia-Pacific,Flood,4.1,1444,53606413.25
+2023,Europe,Flood,4.9,950,23261722.14
+2020,Latin America,Flood,4.6,1121,53755247.05
+2023,Europe,Hurricane/Storm,7.3,1584,66554923.12
+2022,Europe,Flood,7.8,253,9975029.58
+2022,Europe,Earthquake,8.0,368,46918692.99
+2019,Asia-Pacific,Flood,6.4,1205,21698596.04
+2019,North America,Flood,4.7,1111,55428341.23
+2020,Asia-Pacific,Tornado,8.4,187,10102623.91
+2019,Asia-Pacific,Flood,5.2,522,20082574.09
+2022,Latin America,Hurricane/Storm,8.2,1541,51553379.75
+2022,Middle East & Africa,Hurricane/Storm,5.9,1511,32602909.87
+2018,Asia-Pacific,Earthquake,8.8,664,41816809.65
+2022,Latin America,Flood,5.6,1180,36612834.91
+2020,Asia-Pacific,Wildfire,5.3,212,15892304.67
+2021,Europe,Hurricane/Storm,6.4,2298,160269928.04
+2018,Asia-Pacific,Hurricane/Storm,8.1,764,35111222.25
+2018,Latin America,Flood,4.5,513,11370635.62
+2020,North America,Tornado,5.0,275,17660754.49
+2020,Asia-Pacific,Flood,6.5,1328,27858838.88
+2019,Asia-Pacific,Hurricane/Storm,5.4,1812,54574095.24
+2018,Latin America,Flood,6.6,1439,33823383.41
+2019,Latin America,Flood,7.5,366,4325560.8
+2022,Asia-Pacific,Hurricane/Storm,7.6,2070,112459440.54
+2018,Asia-Pacific,Flood,7.6,1317,28429902.88
+2018,Middle East & Africa,Earthquake,8.8,801,72578011.39
+2023,Europe,Hurricane/Storm,5.6,1351,66273396.61
+2021,North America,Hurricane/Storm,6.3,1971,77182356.59
+2018,Middle East & Africa,Flood,5.6,958,29314038.74
+2022,North America,Flood,4.5,1120,22306765.94
+2019,North America,Flood,5.5,1460,39019069.01
+2019,Middle East & Africa,Tornado,7.7,170,4324948.85
+2023,North America,Tornado,6.1,167,7073345.96
+2021,North America,Earthquake,7.6,346,24743997.02
+2022,Europe,Flood,6.0,1163,24923014.7
+2019,North America,Flood,4.5,741,28973339.0
+2020,Asia-Pacific,Earthquake,7.4,683,72522091.89
+2022,Europe,Flood,5.5,1122,45526456.67
+2022,North America,Tornado,7.1,70,1545354.05
+2021,North America,Earthquake,9.5,671,96553448.84
+2019,Asia-Pacific,Flood,6.0,1224,14210880.21
+2022,North America,Hurricane/Storm,8.2,1563,74116387.09
+2023,Asia-Pacific,Hurricane/Storm,6.3,1755,68641212.34
+2023,Europe,Hurricane/Storm,8.4,1715,68912828.23
+2019,Asia-Pacific,Hurricane/Storm,7.8,1113,53973327.83
+2023,North America,Flood,4.4,1053,35115534.21
+2020,Asia-Pacific,Hurricane/Storm,7.8,554,30921275.63
+2021,North America,Hurricane/Storm,8.9,1684,92044179.36
+2023,Asia-Pacific,Hurricane/Storm,5.7,1788,113128494.57
+2023,Asia-Pacific,Earthquake,8.9,348,18498653.86
+2020,Latin America,Flood,4.1,842,22524520.44
+2021,Europe,Flood,6.0,1452,67983856.77
+2022,Latin America,Hurricane/Storm,5.2,782,39976616.29
+2021,Asia-Pacific,Tornado,6.2,202,6515791.37
+2018,North America,Tornado,5.5,191,9964999.4
+2019,Latin America,Hurricane/Storm,8.2,1041,58925383.19
+2019,North America,Flood,6.2,660,31455218.42
+2018,Middle East & Africa,Hurricane/Storm,7.8,1913,119178552.45
+2020,Europe,Flood,7.7,760,16348797.02
+2018,Asia-Pacific,Hurricane/Storm,8.6,1308,90386263.07
+2022,Middle East & Africa,Wildfire,6.2,197,19083776.17
+2022,North America,Tornado,7.0,255,6826164.98
+2019,Asia-Pacific,Flood,6.2,756,11711134.15
+2022,Asia-Pacific,Hurricane/Storm,6.0,1871,139035977.28
+2019,North America,Flood,4.4,876,33896226.29
+2018,North America,Hurricane/Storm,5.0,1627,128003643.69
+2018,North America,Hurricane/Storm,8.5,1474,71705547.15
+2023,North America,Tornado,5.4,40,2597461.31
+2023,North America,Hurricane/Storm,7.1,1980,140619572.47
+2018,North America,Tornado,5.9,100,6636574.36
+2019,North America,Wildfire,8.2,145,13856578.76
+2018,Middle East & Africa,Tornado,7.9,14,439762.0
+2018,Asia-Pacific,Tornado,5.5,242,16794913.95
+2020,Asia-Pacific,Earthquake,9.3,971,97509050.6
+2018,North America,Wildfire,6.3,424,26340581.5
+2022,North America,Flood,6.9,804,26299844.11
+2019,Asia-Pacific,Flood,7.4,1030,44371980.8
+2020,Asia-Pacific,Flood,6.7,578,28476561.65
+2023,Europe,Tornado,4.0,206,5758455.79
+2021,Asia-Pacific,Tornado,5.4,15,440781.35
+2019,Europe,Flood,6.7,1153,25679908.49
+2022,Europe,Hurricane/Storm,8.6,1940,128409497.92
+2019,Asia-Pacific,Hurricane/Storm,8.8,1252,71210663.66
+2023,North America,Flood,4.6,1440,35920790.9
+2022,Asia-Pacific,Tornado,7.4,121,6885175.77
+2022,Asia-Pacific,Hurricane/Storm,8.1,1576,73764488.75
+2021,Asia-Pacific,Flood,6.3,326,14067213.66
+2019,Latin America,Flood,6.1,536,12394842.15
+2021,Asia-Pacific,Flood,4.8,1394,41197047.43
+2021,Latin America,Earthquake,6.2,235,23811324.32
+2019,Europe,Flood,5.8,831,32351829.85
+2018,Europe,Wildfire,8.0,346,12148775.12
+2018,Europe,Hurricane/Storm,7.2,623,47394705.02
+2023,North America,Tornado,4.1,219,5452875.08
+2021,North America,Hurricane/Storm,7.9,2473,111833304.49
+2020,Middle East & Africa,Earthquake,9.0,486,42556372.94
+2021,Asia-Pacific,Hurricane/Storm,7.2,1838,131632404.17
+2021,North America,Tornado,5.8,75,4127414.83
+2021,North America,Flood,4.1,811,23129846.55
+2023,Asia-Pacific,Earthquake,7.3,335,25041653.29
+2018,Europe,Flood,7.7,431,4865426.51
+2023,Asia-Pacific,Hurricane/Storm,8.7,2320,48577894.85
+2023,North America,Flood,4.1,1424,52518466.36
+2023,Latin America,Flood,4.2,1098,21272181.11
+2018,North America,Wildfire,5.2,307,30559959.15
+2018,North America,Tornado,6.6,174,4877171.61
+2021,Latin America,Tornado,6.3,221,6967589.09
+2023,North America,Tornado,8.0,99,4893532.63
+2020,Europe,Earthquake,9.4,758,88787763.38
+2018,Asia-Pacific,Flood,5.7,505,11107747.59
+2019,North America,Hurricane/Storm,6.0,961,36560461.91
+2019,Asia-Pacific,Wildfire,8.7,337,19845061.97
+2019,Europe,Hurricane/Storm,6.6,1022,32908608.47
+2022,Asia-Pacific,Tornado,7.8,57,2534217.41
+2021,Asia-Pacific,Flood,5.5,1438,49060076.03
+2019,Latin America,Flood,7.0,1344,25106808.21
+2021,North America,Tornado,5.4,17,453040.27
+2019,North America,Hurricane/Storm,8.0,2044,99614856.27
+2020,North America,Hurricane/Storm,5.8,2374,81570301.79
+2021,Europe,Flood,5.9,935,20884993.43
+2019,Europe,Wildfire,6.9,461,45497146.6
+2018,Europe,Wildfire,8.7,239,12405185.38
+2021,North America,Wildfire,8.0,58,2798742.89
+2022,Latin America,Hurricane/Storm,6.7,812,25798463.65
+2018,North America,Hurricane/Storm,6.0,1627,96442829.65
+2018,Asia-Pacific,Flood,7.3,1204,34233524.57
+2023,Asia-Pacific,Earthquake,6.5,659,65130045.57
+2022,Latin America,Hurricane/Storm,7.6,620,31890732.25
+2018,Asia-Pacific,Flood,7.3,299,12131492.57
+2018,Europe,Wildfire,5.9,412,16715695.0
+2019,North America,Earthquake,6.2,753,87856631.14
+2019,Asia-Pacific,Earthquake,7.7,106,10941452.34
+2021,Europe,Flood,6.9,1297,63681628.59
+2021,North America,Wildfire,7.7,462,44250283.26
+2021,North America,Tornado,6.4,133,3398983.0
+2019,Asia-Pacific,Wildfire,6.1,253,8989430.81
+2021,Middle East & Africa,Earthquake,6.9,813,59012194.64
+2018,Asia-Pacific,Wildfire,7.6,489,36915887.08
+2019,North America,Earthquake,7.3,587,32643946.93
+2021,North America,Flood,6.0,1088,38946363.17
+2018,Europe,Tornado,8.4,280,18354944.12
+2021,North America,Tornado,7.1,300,12345754.75
+2020,North America,Flood,7.7,1312,42692997.67
+2021,North America,Tornado,5.4,116,5485290.34
+2020,Asia-Pacific,Hurricane/Storm,6.6,657,24937494.99
+2021,Asia-Pacific,Hurricane/Storm,8.4,1886,139170855.79
+2023,Europe,Hurricane/Storm,5.6,1911,121252594.95
+2023,Asia-Pacific,Tornado,4.2,233,6469925.42
+2022,North America,Hurricane/Storm,7.5,1719,75295952.51
+2023,Asia-Pacific,Flood,5.1,1122,33238283.11
+2023,Europe,Tornado,5.9,204,4021488.0
+2021,Asia-Pacific,Hurricane/Storm,7.9,668,24100319.0
+2019,Europe,Hurricane/Storm,5.6,1297,50583899.76
+2019,North America,Flood,5.2,937,37905266.49
+2020,North America,Flood,5.7,1340,43134064.03
+2019,Europe,Flood,5.4,390,13212023.06
+2018,Asia-Pacific,Wildfire,5.0,261,14915097.95
+2022,North America,Tornado,8.1,134,6225348.37
+2023,North America,Earthquake,6.5,408,31350997.32
+2022,North America,Flood,5.1,813,23877202.33
+2018,North America,Flood,5.0,1480,44151504.25
+2023,Asia-Pacific,Earthquake,6.5,106,15357528.7
+2020,Europe,Hurricane/Storm,8.2,1174,54489302.59
+2018,Europe,Wildfire,7.6,354,13993164.41
+2018,Europe,Tornado,4.9,170,4210908.49
+2022,Europe,Flood,6.9,1496,44341877.6
+2021,Asia-Pacific,Flood,5.5,1004,24699023.98
+2022,Latin America,Flood,8.0,568,21168511.02
+2022,Asia-Pacific,Tornado,6.1,117,4576457.63
+2019,North America,Hurricane/Storm,8.3,2129,144139128.1
+2018,Asia-Pacific,Flood,5.2,717,26060453.94
+2022,Asia-Pacific,Hurricane/Storm,5.3,1724,84052037.34
+2018,Europe,Hurricane/Storm,8.7,1916,86407847.59
+2019,North America,Tornado,7.2,284,13535467.52
+2018,Latin America,Flood,5.0,927,15437831.33
+2022,Asia-Pacific,Hurricane/Storm,7.6,1824,80214166.15
+2018,Asia-Pacific,Tornado,5.9,15,306350.41
+2023,North America,Hurricane/Storm,7.2,1908,104012948.39
+2019,Europe,Earthquake,8.7,702,83568698.86
+2021,North America,Tornado,6.2,161,6098462.42
+2018,Middle East & Africa,Flood,7.8,490,11727241.59
+2022,Europe,Hurricane/Storm,7.1,1213,58915109.02
+2019,Europe,Hurricane/Storm,6.3,1114,25266615.24
+2022,Asia-Pacific,Flood,5.4,423,15687197.51
+2022,North America,Tornado,5.1,99,4490151.53
+2018,Europe,Earthquake,7.6,916,82902345.16
+2022,North America,Hurricane/Storm,6.7,559,35912005.91
+2018,Latin America,Earthquake,7.5,104,12529250.41
+2021,North America,Hurricane/Storm,8.2,628,34314469.07
+2023,Asia-Pacific,Hurricane/Storm,6.5,903,42850081.88
+2022,North America,Wildfire,7.1,377,19580734.46
+2022,Europe,Earthquake,6.4,460,61893818.92
+2022,Asia-Pacific,Wildfire,7.8,202,19050171.68
+2020,Asia-Pacific,Hurricane/Storm,6.3,988,37862926.55
+2020,North America,Hurricane/Storm,7.0,1356,75645204.51
+2019,Asia-Pacific,Earthquake,7.7,650,77573140.22
+2023,Asia-Pacific,Tornado,6.5,260,8030337.27
+2023,North America,Wildfire,7.5,493,27180441.83
+2020,North America,Flood,7.3,1350,40793653.07
+2019,Europe,Hurricane/Storm,6.7,2220,103521052.14
+2020,North America,Hurricane/Storm,8.2,951,35686650.24
+2021,North America,Hurricane/Storm,5.7,1436,77456443.74
+2019,Asia-Pacific,Earthquake,7.8,686,42134576.28
+2023,Asia-Pacific,Wildfire,6.5,471,39081242.41
+2023,Asia-Pacific,Earthquake,6.8,535,32229279.48
+2020,Asia-Pacific,Hurricane/Storm,6.2,566,26592910.36
+2021,Europe,Wildfire,6.8,110,9272363.7
+2020,North America,Wildfire,7.4,229,20672610.6
+2018,Asia-Pacific,Earthquake,8.2,903,63807754.95
+2018,North America,Flood,5.4,775,26252588.26
+2021,North America,Tornado,5.3,146,9837750.68
+2022,Asia-Pacific,Tornado,7.7,79,5368244.32
+2022,Asia-Pacific,Tornado,8.5,74,3964805.97
+2018,North America,Flood,5.3,706,28564014.11
+2018,Asia-Pacific,Earthquake,8.0,375,42292980.78
+2022,Europe,Flood,7.2,390,10184472.06
+2019,Asia-Pacific,Hurricane/Storm,8.5,1431,110208815.21
+2022,Europe,Flood,7.1,390,15302538.22
+2020,Europe,Hurricane/Storm,6.4,629,42608884.95
+2019,Europe,Tornado,7.7,263,7829385.37
+2020,Asia-Pacific,Flood,6.3,1359,59927691.25
+2018,Asia-Pacific,Wildfire,8.0,73,2698826.93
+2019,Asia-Pacific,Earthquake,6.4,978,64350787.76
+2020,Europe,Tornado,5.9,77,4890895.78
+2020,Europe,Wildfire,8.5,97,7354652.28
+2019,North America,Earthquake,9.2,269,14843077.7
+2021,Asia-Pacific,Hurricane/Storm,8.0,1379,81814847.8
+2022,Asia-Pacific,Flood,5.9,471,15894921.72
+2023,Asia-Pacific,Earthquake,6.0,451,59401617.11
+2020,Middle East & Africa,Earthquake,6.5,172,12537886.12
+2022,North America,Wildfire,5.4,238,21817276.66
+2023,North America,Hurricane/Storm,8.0,772,45157807.2
+2022,Asia-Pacific,Flood,6.3,1449,52165171.55
+2018,Europe,Hurricane/Storm,7.5,810,60906854.46
+2023,Asia-Pacific,Earthquake,6.8,202,12928265.46
+2022,North America,Hurricane/Storm,6.4,1379,53602033.51
+2020,North America,Flood,4.3,1333,45375269.97
+2023,Asia-Pacific,Flood,7.8,254,11154583.78
+2018,Asia-Pacific,Flood,6.1,1243,21809505.14
+2019,Europe,Hurricane/Storm,8.1,2125,164220617.7
+2020,Europe,Flood,6.0,1416,18182119.78
+2018,Latin America,Flood,5.4,848,12956859.31
+2018,Latin America,Hurricane/Storm,6.5,1898,57635083.15
+2023,Europe,Tornado,4.3,44,693380.09
+2022,North America,Tornado,8.3,213,9129943.23
+2019,Asia-Pacific,Hurricane/Storm,6.7,1937,85492680.67
+2020,Asia-Pacific,Hurricane/Storm,5.6,671,25896851.21
+2020,Asia-Pacific,Flood,7.2,1298,29944875.38
+2022,Asia-Pacific,Hurricane/Storm,7.6,1817,43547866.42
+2019,Asia-Pacific,Hurricane/Storm,8.4,618,21425309.27
+2023,Latin America,Flood,6.4,312,6979940.0
+2020,Asia-Pacific,Hurricane/Storm,5.5,1949,55025547.59
+2019,North America,Earthquake,7.2,629,80699888.69
+2023,Asia-Pacific,Flood,4.5,750,29488075.13
+2023,North America,Wildfire,6.3,269,13191394.6
+2020,North America,Hurricane/Storm,7.3,657,32698137.17
+2022,Asia-Pacific,Flood,7.4,541,13366763.51
+2021,North America,Flood,6.3,436,8343373.14
+2020,Asia-Pacific,Flood,7.5,700,8287482.84
+2018,Europe,Tornado,4.8,28,1271411.77
+2018,Latin America,Hurricane/Storm,6.7,1159,40444221.77
+2023,Latin America,Flood,7.3,1370,34129887.54
+2021,Asia-Pacific,Tornado,4.8,274,18899906.93
+2020,Middle East & Africa,Flood,5.9,778,31852175.16
+2018,Europe,Flood,5.8,955,17215638.06
+2018,Asia-Pacific,Flood,6.5,1150,28440586.87
+2020,Middle East & Africa,Tornado,7.5,289,16422864.89
+2019,North America,Flood,5.6,677,21435044.01
+2023,Asia-Pacific,Hurricane/Storm,5.0,1186,23824038.8
+2020,Asia-Pacific,Wildfire,7.9,103,4569451.43
+2019,Middle East & Africa,Earthquake,9.4,245,29685485.63
+2023,North America,Tornado,8.0,276,10410202.28
+2021,Latin America,Earthquake,8.6,694,41333044.17
+2022,North America,Wildfire,5.3,340,11682332.15
+2023,Asia-Pacific,Flood,5.2,845,39750217.97
+2021,Europe,Wildfire,6.3,281,13779372.0
+2022,North America,Flood,7.1,1397,20059401.95
+2018,North America,Earthquake,7.1,223,23101117.44
+2018,Middle East & Africa,Flood,5.2,742,32721671.27
+2018,North America,Wildfire,6.2,410,32300398.12
+2023,North America,Wildfire,6.3,96,7658977.72
+2019,Middle East & Africa,Earthquake,6.2,406,30862771.78
+2022,Middle East & Africa,Flood,5.6,1126,36300157.42
+2018,Asia-Pacific,Flood,4.4,486,7221051.29
+2020,North America,Hurricane/Storm,5.9,905,62825466.44
+2022,Europe,Hurricane/Storm,7.6,1692,93342775.72
+2022,Latin America,Flood,8.0,604,27844305.34
+2019,Europe,Flood,7.6,879,13098072.5
+2021,Latin America,Flood,7.7,1087,46596881.26
+2019,Europe,Flood,6.7,553,13359224.75
+2018,Latin America,Flood,5.8,504,5738532.79
+2020,Asia-Pacific,Flood,5.2,1043,47259522.11
+2020,Europe,Flood,5.5,1058,19021054.38
+2018,Latin America,Hurricane/Storm,7.5,2142,112710756.89
+2020,North America,Earthquake,8.5,591,61731002.34
+2019,Europe,Tornado,6.3,208,6213784.23
+2023,North America,Hurricane/Storm,5.1,2160,144098561.26
+2019,North America,Tornado,6.4,129,8845387.12
+2023,North America,Hurricane/Storm,6.1,2171,146486559.25
+2018,Asia-Pacific,Hurricane/Storm,8.8,1679,118856922.81
+2020,Asia-Pacific,Earthquake,8.9,965,65013211.03
+2022,North America,Flood,7.0,934,43486292.95
+2021,North America,Hurricane/Storm,8.8,1654,47182231.3
+2022,Latin America,Wildfire,8.2,302,20520514.08
+2023,North America,Flood,4.2,1432,26853376.18
+2019,Asia-Pacific,Flood,7.7,612,25861783.72
+2019,Europe,Flood,7.2,862,10673489.6
+2019,North America,Hurricane/Storm,5.6,727,51463496.32
+2019,Latin America,Tornado,5.7,212,10012954.29
+2021,Europe,Flood,7.9,1094,45591028.89
+2018,Middle East & Africa,Hurricane/Storm,5.7,2483,133383379.6
+2019,Latin America,Hurricane/Storm,6.4,1863,103092848.41
+2023,North America,Flood,6.8,460,7869832.51
+2020,North America,Hurricane/Storm,7.3,2242,178590966.72
+2021,Middle East & Africa,Flood,6.4,1452,27349596.15
+2023,Asia-Pacific,Tornado,4.6,49,1376399.02
+2023,Middle East & Africa,Flood,7.5,381,16332125.91
+2019,Asia-Pacific,Hurricane/Storm,6.3,523,18782366.38
+2020,North America,Flood,5.0,421,16341764.82
+2019,North America,Earthquake,7.5,270,37382903.93
+2023,Europe,Earthquake,7.9,203,26974781.64
+2018,Asia-Pacific,Hurricane/Storm,8.0,961,28598774.47
+2021,North America,Wildfire,6.2,213,10283414.16
+2018,North America,Flood,7.6,529,20778804.4
+2021,Asia-Pacific,Wildfire,5.4,354,35035141.76
+2019,Latin America,Hurricane/Storm,6.7,1838,54955890.64
+2019,Latin America,Flood,4.4,620,30365080.83
+2021,Europe,Hurricane/Storm,8.7,1606,57680913.17
+2020,North America,Flood,4.2,1370,43821512.32
+2020,Europe,Flood,4.0,379,8255369.65
+2019,Asia-Pacific,Hurricane/Storm,5.8,552,17894282.79
+2019,Asia-Pacific,Tornado,6.1,69,2205201.15
+2018,Europe,Earthquake,8.3,193,22038021.18
+2023,Europe,Earthquake,7.3,291,27522060.38
+2019,North America,Earthquake,6.8,375,39909247.05
+2021,North America,Hurricane/Storm,5.4,1868,75892138.6
+2020,Asia-Pacific,Tornado,6.7,293,5377753.07
+2020,Europe,Hurricane/Storm,8.9,1907,137330013.05
+2018,Europe,Wildfire,6.9,90,5187267.5
+2020,Latin America,Flood,6.3,1258,52858660.94
+2020,Asia-Pacific,Hurricane/Storm,5.5,2050,96231887.55
+2023,Latin America,Flood,4.8,594,8938179.33
+2022,Europe,Tornado,6.0,85,5174455.45
+2021,North America,Tornado,8.1,44,870606.41
+2023,Asia-Pacific,Hurricane/Storm,8.4,1564,74273469.88
+2022,Latin America,Hurricane/Storm,7.5,1570,105034789.26
+2020,North America,Flood,6.3,1393,56186788.05
+2018,Latin America,Tornado,6.5,61,3551176.59
+2018,Latin America,Wildfire,8.5,185,10510412.97
+2020,Europe,Hurricane/Storm,5.1,1064,47005857.51
+2019,Asia-Pacific,Hurricane/Storm,6.6,1310,96120533.21
+2022,Europe,Flood,7.0,750,34410940.86
+2020,North America,Wildfire,6.2,193,17176857.14
+2018,Latin America,Hurricane/Storm,8.9,966,27108984.8
+2018,Middle East & Africa,Earthquake,8.9,375,46079978.0
+2022,Asia-Pacific,Flood,5.8,1033,40945839.09
+2021,Asia-Pacific,Wildfire,8.3,313,26731554.49
+2020,North America,Hurricane/Storm,6.6,2098,149121057.52
+2023,Latin America,Flood,4.8,611,26565710.0
+2020,North America,Earthquake,9.2,821,57396912.31
+2021,Europe,Earthquake,7.4,226,26694540.55
+2022,North America,Earthquake,7.6,991,96581104.85
+2022,Asia-Pacific,Flood,7.4,729,29129706.68
+2018,Asia-Pacific,Flood,5.5,533,23533470.68
+2021,Asia-Pacific,Flood,4.9,661,24528262.31
+2022,North America,Earthquake,6.1,899,131895738.18
+2019,Asia-Pacific,Earthquake,6.5,277,30501632.03
+2020,North America,Flood,7.2,825,31770436.11
+2018,Asia-Pacific,Flood,7.6,914,25920967.57
+2023,North America,Flood,6.1,1477,38233772.06
+2021,North America,Hurricane/Storm,7.6,2227,156697744.39
+2018,Asia-Pacific,Hurricane/Storm,6.1,1901,50350402.76
+2022,North America,Tornado,6.9,151,4433825.07
+2022,Asia-Pacific,Wildfire,6.2,126,8342529.42
+2023,North America,Flood,7.4,1428,37362102.11
+2023,Europe,Flood,4.1,1218,60776694.53
+2023,North America,Earthquake,7.4,136,14729122.35
+2023,Middle East & Africa,Wildfire,6.4,415,18909650.79
+2023,Asia-Pacific,Hurricane/Storm,8.6,1875,77830927.31
+2019,Europe,Flood,6.6,1343,23160618.28
+2020,North America,Flood,5.0,1344,54454483.42
+2021,North America,Hurricane/Storm,6.3,682,22734613.69
+2018,North America,Wildfire,6.7,219,12267891.65
+2023,Asia-Pacific,Earthquake,6.4,154,21042457.89
+2020,Asia-Pacific,Tornado,4.3,109,4635361.86
+2022,Latin America,Earthquake,7.0,155,21248161.77
+2020,North America,Tornado,5.5,244,5582068.12
+2023,Latin America,Flood,4.3,881,31047594.89
+2018,North America,Hurricane/Storm,5.0,1060,34516718.63
+2023,Asia-Pacific,Hurricane/Storm,5.6,2108,138736228.26
+2020,North America,Hurricane/Storm,7.5,1326,60653264.69
+2022,Europe,Flood,6.1,964,46274645.81
+2020,Latin America,Hurricane/Storm,7.1,536,32484220.24
+2023,Asia-Pacific,Flood,6.8,905,20347739.83
+2021,North America,Hurricane/Storm,6.2,633,43949588.65
+2020,North America,Flood,6.9,1421,44000846.87
+2021,Europe,Hurricane/Storm,5.5,2346,115917551.64
+2023,Asia-Pacific,Flood,7.6,1026,11044879.05
+2020,North America,Tornado,5.0,21,996095.22
+2022,North America,Earthquake,8.3,138,12077655.57
+2019,Asia-Pacific,Hurricane/Storm,7.5,1716,136732276.86
+2019,Asia-Pacific,Hurricane/Storm,5.1,1912,51523408.88
+2021,Europe,Flood,5.0,513,9346755.67
+2023,Asia-Pacific,Flood,5.7,406,14818723.37
+2021,North America,Hurricane/Storm,5.5,2201,162692011.42
+2023,Asia-Pacific,Hurricane/Storm,6.1,2107,55573858.0
+2023,North America,Flood,5.1,1271,62183406.68
+2019,Europe,Earthquake,6.6,661,65859046.55
+2022,North America,Tornado,5.5,11,172713.39
+2022,North America,Flood,6.3,1211,19334559.22
+2020,North America,Hurricane/Storm,7.9,707,52520741.47
+2021,Asia-Pacific,Earthquake,9.4,370,35678262.22
+2022,North America,Flood,4.2,795,19404826.32
+2018,Asia-Pacific,Earthquake,6.4,971,122171608.87
+2020,North America,Wildfire,7.7,137,7261857.32
+2020,Latin America,Tornado,5.2,57,2023170.45
+2019,Europe,Flood,5.6,1134,23670349.0
+2021,Europe,Wildfire,8.2,382,35154952.73
+2022,North America,Flood,6.9,526,7442123.74
+2022,Latin America,Earthquake,8.0,548,37333078.72
+2023,Europe,Earthquake,6.1,800,110396019.72
+2020,Asia-Pacific,Wildfire,6.9,299,11333781.44
+2021,Europe,Flood,5.0,843,8846786.38
+2021,Latin America,Hurricane/Storm,8.0,1982,106831253.88
+2021,Middle East & Africa,Hurricane/Storm,6.4,1571,96293657.31
+2023,Asia-Pacific,Earthquake,8.5,593,50152944.61
+2019,Asia-Pacific,Earthquake,8.9,671,93407352.26
+2022,Asia-Pacific,Flood,7.7,1235,54282971.39
+2021,Latin America,Wildfire,5.3,301,15785754.49
+2023,Europe,Flood,6.0,1327,47417283.07
+2019,Europe,Flood,5.8,1373,38339574.32
+2023,Latin America,Earthquake,6.4,609,75835052.95
+2018,North America,Earthquake,6.1,662,33111235.16
+2020,North America,Hurricane/Storm,7.5,1123,82435672.36
+2022,Asia-Pacific,Hurricane/Storm,6.8,1198,50077057.29
+2023,North America,Flood,5.8,1347,54818395.62
+2023,Asia-Pacific,Hurricane/Storm,6.5,1426,38275838.54
+2022,Asia-Pacific,Flood,5.4,1497,72720288.97
+2020,North America,Hurricane/Storm,7.8,593,43770887.88
+2018,Europe,Wildfire,8.0,259,9709212.1
+2019,Asia-Pacific,Flood,7.7,1004,18698074.5
+2023,Asia-Pacific,Flood,5.4,1048,12429295.17
+2020,Asia-Pacific,Hurricane/Storm,5.5,2326,109392421.55
+2019,Asia-Pacific,Tornado,4.6,265,4038220.92
+2019,Asia-Pacific,Hurricane/Storm,6.7,1698,83161108.45
+2019,Asia-Pacific,Tornado,4.8,98,5407366.23
+2018,North America,Earthquake,8.1,429,43076324.12
+2018,Europe,Tornado,8.1,137,4116544.96
+2019,Middle East & Africa,Tornado,6.0,78,1762792.22
+2021,Asia-Pacific,Wildfire,7.0,481,38049313.43
+2022,Latin America,Hurricane/Storm,8.7,1795,59307793.39
+2018,North America,Hurricane/Storm,7.7,2386,143977020.76
+2021,Middle East & Africa,Hurricane/Storm,8.8,1531,80453267.21
+2021,Asia-Pacific,Hurricane/Storm,8.0,1651,80605444.51
+2023,Asia-Pacific,Hurricane/Storm,6.7,2031,149546510.93
+2022,Asia-Pacific,Wildfire,6.7,56,3729101.55
+2019,North America,Flood,6.7,609,12593590.64
+2023,Asia-Pacific,Tornado,7.1,84,5137943.98
+2023,Asia-Pacific,Flood,7.0,266,6476381.13
+2021,Europe,Hurricane/Storm,7.7,1650,118619307.04
+2021,Asia-Pacific,Hurricane/Storm,6.0,2106,142807899.73
+2021,Asia-Pacific,Hurricane/Storm,5.2,1281,55407450.29
+2019,Middle East & Africa,Tornado,5.4,292,5244063.21
+2019,Asia-Pacific,Flood,7.5,1107,47821668.58
+2023,Latin America,Hurricane/Storm,7.6,2046,113150184.36
+2023,Asia-Pacific,Flood,6.9,596,12973196.89
+2018,North America,Hurricane/Storm,5.7,855,54809577.63
+2018,North America,Flood,5.1,741,11265171.95
+2021,Asia-Pacific,Flood,5.3,517,5995971.39
+2019,Latin America,Hurricane/Storm,8.1,1780,101347006.61
+2019,Asia-Pacific,Earthquake,8.0,466,26696245.07
+2023,Asia-Pacific,Hurricane/Storm,8.8,1566,37725861.04
+2022,Asia-Pacific,Earthquake,7.9,194,16478417.25
+2021,Latin America,Hurricane/Storm,6.3,1101,36450495.58
+2018,Asia-Pacific,Hurricane/Storm,9.0,2186,142369863.53
+2022,Asia-Pacific,Flood,5.4,692,31956461.97
+2019,Asia-Pacific,Hurricane/Storm,8.8,1897,138745839.3
+2018,Europe,Hurricane/Storm,5.5,1025,53724594.75
+2021,North America,Tornado,7.7,201,8700686.68
+2019,Asia-Pacific,Earthquake,7.0,767,53115700.15
+2021,Asia-Pacific,Tornado,4.8,285,12633001.26
+2023,Asia-Pacific,Flood,6.5,636,28364349.77
+2022,Europe,Flood,6.2,1091,39125928.99
+2022,Latin America,Hurricane/Storm,5.6,1440,90737419.72
+2022,North America,Flood,4.7,715,23111208.27
+2020,Asia-Pacific,Flood,5.0,994,27876756.39
+2021,Europe,Flood,5.6,442,13875871.66
+2022,Asia-Pacific,Hurricane/Storm,8.0,1699,38619988.07
+2023,Asia-Pacific,Earthquake,7.8,396,50960919.15
+2022,Europe,Flood,7.1,1096,27681171.11
+2021,Asia-Pacific,Flood,4.6,650,10045917.97
+2022,Europe,Hurricane/Storm,7.2,2466,143133397.19
+2021,North America,Wildfire,8.9,493,39958991.14
+2019,Europe,Tornado,6.5,294,6696015.42
+2023,North America,Hurricane/Storm,6.6,1621,124523215.4
+2021,Europe,Hurricane/Storm,8.6,1204,39375876.76
+2021,Latin America,Wildfire,5.6,144,6545542.73
+2020,Asia-Pacific,Flood,4.7,1361,60006551.4
+2019,Latin America,Tornado,8.5,246,12412446.17
+2023,North America,Hurricane/Storm,6.0,904,57435961.32
+2020,Europe,Flood,4.5,680,9521225.56
+2022,Asia-Pacific,Tornado,5.4,240,7934168.23
+2021,Asia-Pacific,Hurricane/Storm,5.6,1660,69503546.19
+2023,Europe,Earthquake,6.0,352,45255235.94
+2019,Asia-Pacific,Hurricane/Storm,6.1,1236,34680120.53
+2020,Asia-Pacific,Wildfire,6.9,233,19626449.14
+2021,Europe,Flood,6.6,367,16027521.17
+2018,Latin America,Flood,6.2,739,29073578.88
+2023,Asia-Pacific,Hurricane/Storm,8.6,2239,112914334.34
+2020,North America,Hurricane/Storm,6.6,1708,55963715.12
+2019,North America,Flood,7.6,1305,37693826.23
+2020,Asia-Pacific,Earthquake,6.8,890,96974467.18
+2020,Latin America,Flood,6.0,385,9960491.43
+2020,Asia-Pacific,Hurricane/Storm,8.4,2151,169737973.88
+2022,Asia-Pacific,Hurricane/Storm,5.6,826,25398435.31
+2018,Latin America,Hurricane/Storm,8.9,2007,128287978.85
+2019,Latin America,Flood,7.0,674,8434736.91
+2019,Europe,Flood,4.8,939,23966777.21
+2019,Latin America,Wildfire,5.2,382,20125661.48
+2021,Asia-Pacific,Hurricane/Storm,8.3,2209,142512712.57
+2023,Asia-Pacific,Hurricane/Storm,6.5,1275,53445203.52
+2019,Asia-Pacific,Wildfire,7.1,242,23737099.4
+2023,North America,Earthquake,8.9,453,44704828.79
+2019,Europe,Hurricane/Storm,7.0,784,36372834.88
+2018,North America,Hurricane/Storm,6.1,807,25189972.82
+2021,Europe,Hurricane/Storm,5.5,971,43575393.29
+2021,Europe,Flood,6.7,1181,21763654.65
+2020,North America,Wildfire,5.1,72,2804540.98
+2022,Asia-Pacific,Flood,6.1,1372,21779956.69
+2021,North America,Tornado,6.3,217,10408332.03
+2021,Asia-Pacific,Flood,6.9,780,37354320.7
+2018,North America,Hurricane/Storm,6.9,1486,44927734.46
+2019,Asia-Pacific,Hurricane/Storm,8.2,2180,143987706.73
+2021,Asia-Pacific,Hurricane/Storm,5.7,1904,77226766.41
+2021,Europe,Hurricane/Storm,5.9,1289,36005368.77
+2022,North America,Hurricane/Storm,8.6,1901,85901819.15
+2023,North America,Flood,5.9,1459,49595133.19
+2018,Latin America,Hurricane/Storm,8.0,690,33764774.71
+2022,North America,Hurricane/Storm,8.3,2336,178152915.26
+2021,Asia-Pacific,Earthquake,7.5,995,54072109.19
+2021,Asia-Pacific,Flood,7.2,980,23540298.3
+2018,Asia-Pacific,Tornado,7.8,60,2304115.01
+2020,North America,Hurricane/Storm,8.6,671,24824316.05
+2020,Latin America,Earthquake,6.7,826,102725133.28
+2021,North America,Hurricane/Storm,7.1,1268,75157868.87
+2021,Asia-Pacific,Flood,5.4,516,13954117.6
+2022,Asia-Pacific,Flood,6.1,1356,33392535.68
+2023,North America,Hurricane/Storm,8.0,1346,71507995.63
+2023,Asia-Pacific,Flood,6.2,1190,23979815.92
+2022,Europe,Flood,6.8,482,21304379.23
+2022,Asia-Pacific,Hurricane/Storm,6.8,1932,148676501.08
+2019,North America,Hurricane/Storm,8.1,2140,113493985.95
+2021,Asia-Pacific,Hurricane/Storm,5.6,2475,143927677.83
+2019,Asia-Pacific,Wildfire,6.9,357,21590082.09
+2020,North America,Flood,4.3,277,10797401.42
+2021,Latin America,Earthquake,8.3,393,47616109.19
+2021,Asia-Pacific,Tornado,7.7,263,10294730.68
+2018,North America,Hurricane/Storm,8.2,1085,34377996.79
+2021,Asia-Pacific,Hurricane/Storm,7.8,1759,53067224.4
+2020,North America,Flood,4.0,522,7033277.93
+2023,North America,Earthquake,8.3,515,55933128.51
+2023,Asia-Pacific,Hurricane/Storm,5.3,684,36235282.5
+2021,Asia-Pacific,Hurricane/Storm,7.3,1211,94212481.74
+2023,North America,Hurricane/Storm,5.8,2404,106346681.19
+2019,North America,Flood,6.0,1344,17331469.78
+2021,North America,Tornado,7.6,141,8909256.67
+2019,Asia-Pacific,Hurricane/Storm,7.8,2478,105624296.15
+2022,Europe,Flood,5.4,1139,42443453.31
+2022,Latin America,Wildfire,6.9,182,6320641.28
+2018,Asia-Pacific,Tornado,7.0,127,7494127.34
+2021,Europe,Earthquake,7.9,817,108838864.57
+2022,North America,Flood,6.7,900,11737037.54
+2022,Latin America,Earthquake,7.2,687,52835506.26
+2023,Latin America,Hurricane/Storm,8.6,1521,97688863.75
+2018,North America,Flood,5.1,669,12116033.11
+2018,North America,Hurricane/Storm,5.6,718,19524365.46
+2023,North America,Tornado,6.2,13,741434.61
+2021,Asia-Pacific,Flood,5.9,1471,33269130.75
+2019,Latin America,Wildfire,7.3,190,12227711.18
+2021,Middle East & Africa,Tornado,5.3,123,6919895.89
+2019,North America,Hurricane/Storm,6.7,2424,127129290.01
+2018,Asia-Pacific,Earthquake,8.4,278,26610049.75
+2020,North America,Hurricane/Storm,6.3,517,10706655.74
+2021,North America,Hurricane/Storm,6.3,1754,125780254.53
+2020,North America,Flood,5.1,1455,34518213.98
+2019,North America,Earthquake,7.5,870,75890937.62
+2021,Latin America,Flood,4.7,468,23011980.3
+2020,Asia-Pacific,Wildfire,7.9,461,21439432.93
+2020,Europe,Earthquake,6.5,856,55601313.7
+2021,Asia-Pacific,Flood,6.0,1491,45744295.98
+2020,Asia-Pacific,Hurricane/Storm,6.2,1651,118063206.38
+2021,North America,Flood,4.7,641,27276295.29
+2020,Europe,Hurricane/Storm,6.8,1185,42169584.58
+2018,Europe,Hurricane/Storm,8.2,1204,25512904.5
+2021,North America,Wildfire,8.9,151,10627344.21
+2018,Asia-Pacific,Hurricane/Storm,8.9,1082,44693678.77
+2023,Asia-Pacific,Earthquake,8.6,180,15859277.97
+2022,North America,Hurricane/Storm,5.6,843,49260569.41
+2018,Latin America,Earthquake,8.1,514,69333499.68
+2020,North America,Flood,4.9,848,30630204.26
+2019,Asia-Pacific,Hurricane/Storm,6.6,2317,108189773.85
+2023,Latin America,Earthquake,8.1,561,51274786.32
+2018,North America,Flood,6.9,715,34046507.85
+2023,Asia-Pacific,Flood,4.7,410,5667080.99
+2018,Latin America,Earthquake,6.2,889,79744413.1
+2018,Asia-Pacific,Flood,5.0,518,6926929.45
+2019,Latin America,Earthquake,6.8,855,67046986.44
+2019,Asia-Pacific,Flood,7.4,258,2942799.4
+2018,Europe,Tornado,7.9,249,17087372.26
+2022,Asia-Pacific,Flood,5.8,1304,22274231.14
+2019,Asia-Pacific,Hurricane/Storm,7.5,1655,76293252.98
+2019,Asia-Pacific,Hurricane/Storm,8.6,1486,77836809.77
+2019,Asia-Pacific,Earthquake,7.3,366,23999261.93
+2021,North America,Hurricane/Storm,8.0,779,31653181.03
+2023,Europe,Flood,7.7,1177,25875663.19
+2018,Asia-Pacific,Hurricane/Storm,7.4,2131,43542891.56
+2022,Europe,Earthquake,8.0,504,37794764.34
+2019,Asia-Pacific,Hurricane/Storm,8.3,951,34025654.52
+2021,Europe,Flood,7.1,1455,61550861.53
+2023,Asia-Pacific,Flood,7.0,750,19887116.3
+2020,Latin America,Flood,5.2,1132,39290787.86
+2020,North America,Hurricane/Storm,5.8,539,15700508.53
+2019,Middle East & Africa,Flood,7.9,777,16136584.73
+2022,Asia-Pacific,Hurricane/Storm,5.9,808,16873860.58
+2022,North America,Earthquake,8.8,610,91375770.22
+2023,Europe,Hurricane/Storm,6.3,2227,144831107.5
+2023,North America,Flood,5.6,1312,37793302.84
+2018,North America,Wildfire,8.3,474,14638581.89
+2019,Middle East & Africa,Hurricane/Storm,6.5,2496,116257830.7
+2020,Asia-Pacific,Flood,5.8,392,12091461.4
+2018,Middle East & Africa,Earthquake,8.4,419,60177418.83
+2022,North America,Hurricane/Storm,8.0,1625,83290309.66
+2018,North America,Hurricane/Storm,5.8,2317,53581206.28
+2020,Asia-Pacific,Tornado,5.1,232,7620792.1
+2022,North America,Flood,4.5,697,7218964.38
+2023,North America,Hurricane/Storm,6.9,1721,50424467.98
+2021,Asia-Pacific,Flood,6.0,1466,34505071.75
+2021,Middle East & Africa,Hurricane/Storm,5.2,1228,72052278.39
+2023,Asia-Pacific,Hurricane/Storm,5.5,976,38068268.58
+2019,Asia-Pacific,Hurricane/Storm,6.4,2326,107747609.42
+2018,North America,Hurricane/Storm,6.4,775,27157375.21
+2022,North America,Hurricane/Storm,7.2,1611,99595671.33
+2023,North America,Flood,5.4,1159,24354042.1
+2023,Asia-Pacific,Tornado,6.5,45,1989565.14
+2019,Europe,Wildfire,7.2,282,8474209.42
+2018,Asia-Pacific,Earthquake,6.6,119,13324841.82
+2023,Europe,Hurricane/Storm,6.3,629,37423842.61
+2020,Asia-Pacific,Earthquake,7.8,609,77083206.42
+2023,North America,Flood,5.6,859,12385547.65
+2022,Asia-Pacific,Flood,7.3,465,7972681.68
+2018,North America,Flood,4.8,265,8702729.12
+2022,Asia-Pacific,Hurricane/Storm,7.1,1936,107289353.95
+2018,North America,Flood,6.9,226,10669107.77
+2020,North America,Earthquake,9.1,181,17521870.5
+2022,Asia-Pacific,Earthquake,8.6,525,69406392.1
+2021,Asia-Pacific,Flood,6.5,1283,14916319.77
+2023,North America,Flood,7.8,1263,17536464.52
+2020,Asia-Pacific,Hurricane/Storm,5.8,1577,93693655.73
+2018,Asia-Pacific,Tornado,6.5,295,11161370.14
+2022,North America,Hurricane/Storm,6.4,1439,89438202.93
+2023,Europe,Flood,7.2,1326,34558592.49
+2020,Europe,Flood,8.0,1107,52406264.25
+2018,Latin America,Hurricane/Storm,9.0,2230,94336070.76
+2021,Asia-Pacific,Earthquake,8.5,723,53554240.81
+2021,Asia-Pacific,Earthquake,7.9,862,65002482.76
+2018,Middle East & Africa,Earthquake,7.4,843,45072082.66
+2021,North America,Flood,4.5,818,8394932.08
+2020,Middle East & Africa,Flood,5.3,765,35774829.74
+2023,Asia-Pacific,Hurricane/Storm,7.3,693,15429075.36
+2021,Europe,Flood,5.5,1392,27832032.52
+2023,North America,Flood,6.3,1365,63766346.46
+2019,Asia-Pacific,Hurricane/Storm,8.2,854,42099282.65
+2021,Latin America,Hurricane/Storm,8.3,695,38721141.15
+2019,Europe,Hurricane/Storm,7.3,660,44092827.56
+2023,Latin America,Flood,7.5,1089,29033685.8
+2022,Latin America,Wildfire,5.9,384,34353973.14
+2023,Latin America,Hurricane/Storm,7.5,610,23355072.18
+2020,North America,Hurricane/Storm,5.6,1528,94531430.07
+2022,North America,Hurricane/Storm,9.0,2488,116281591.71
+2022,Asia-Pacific,Hurricane/Storm,5.9,1093,73430033.01
+2021,North America,Flood,5.9,300,9577828.86
+2021,North America,Earthquake,7.5,814,51312539.24
+2021,North America,Hurricane/Storm,7.0,1835,99603508.19
+2023,Asia-Pacific,Tornado,6.4,134,2538016.14
+2022,Asia-Pacific,Flood,7.7,383,5553957.63
+2020,Europe,Earthquake,6.7,452,49443247.14
+2020,North America,Flood,8.0,1462,62666235.43
+2019,Asia-Pacific,Hurricane/Storm,6.8,2392,165264033.98
+2018,North America,Earthquake,8.7,973,56999744.97
+2020,Asia-Pacific,Flood,6.5,502,22464547.22
+2021,Asia-Pacific,Flood,6.8,427,9481416.29
+2019,Europe,Flood,7.0,633,11490250.25
+2021,Asia-Pacific,Flood,5.9,489,18485591.57
+2022,Asia-Pacific,Earthquake,9.2,639,34728500.28
+2022,North America,Flood,7.2,1465,30547093.05
+2023,Europe,Tornado,4.3,148,7616670.51
+2021,Latin America,Earthquake,6.4,399,54559676.67
+2020,Asia-Pacific,Flood,5.5,403,18600417.61
+2018,Europe,Hurricane/Storm,5.4,907,45385417.78
+2021,Europe,Tornado,4.1,136,8938580.47
+2020,Europe,Earthquake,8.6,118,9992002.85
+2019,Europe,Hurricane/Storm,5.9,1526,55779415.23
+2021,North America,Flood,5.5,260,12419021.66
+2019,Latin America,Flood,5.4,1004,36422379.44
+2020,North America,Earthquake,9.4,727,99795396.92
+2020,Asia-Pacific,Earthquake,8.0,536,78820792.48
+2020,Latin America,Flood,6.2,623,22489618.34
+2020,Asia-Pacific,Hurricane/Storm,5.8,782,30138204.75
+2022,Asia-Pacific,Hurricane/Storm,5.5,2361,185448556.94
+2023,North America,Tornado,8.1,172,3221520.83
+2020,Asia-Pacific,Hurricane/Storm,5.7,2219,161495019.51
+2022,Asia-Pacific,Hurricane/Storm,8.5,1347,104623875.85
+2018,Europe,Hurricane/Storm,8.3,1804,137094983.29
+2022,North America,Hurricane/Storm,5.4,878,18940122.31
+2019,Middle East & Africa,Hurricane/Storm,7.4,1754,59381110.34
+2018,North America,Hurricane/Storm,6.4,1909,127501298.65
+2019,North America,Wildfire,6.9,382,21459674.39
+2023,Latin America,Earthquake,6.5,297,21570309.88
+2021,Europe,Tornado,8.2,221,6020146.45
+2021,Asia-Pacific,Flood,4.8,562,26461280.07
+2022,Middle East & Africa,Wildfire,7.0,216,19585636.57
+2019,Latin America,Earthquake,8.7,722,89190954.51
+2023,Europe,Flood,6.4,1371,46274310.15
+2021,Asia-Pacific,Wildfire,8.1,316,11898076.4
+2023,Europe,Wildfire,8.5,175,11604107.49
+2023,Europe,Hurricane/Storm,7.2,1557,102621235.28
+2021,Middle East & Africa,Flood,5.8,823,33699447.25
+2021,North America,Flood,5.2,311,11693014.8
+2018,Latin America,Earthquake,8.3,192,23474818.4
+2018,North America,Hurricane/Storm,8.8,1925,101610020.58
+2020,Europe,Flood,4.1,1129,37948646.86
+2019,Asia-Pacific,Flood,5.8,712,16349649.74
+2021,Asia-Pacific,Hurricane/Storm,5.7,2001,54852718.67
+2023,North America,Earthquake,7.3,636,76782951.95
+2019,Asia-Pacific,Tornado,6.8,91,3260286.55
+2020,Europe,Hurricane/Storm,8.6,1658,119837461.55
+2023,Latin America,Flood,4.6,305,8168896.63
+2022,Europe,Hurricane/Storm,6.8,1782,54960019.14
+2020,Latin America,Tornado,4.0,139,2178328.36
+2021,Europe,Earthquake,8.8,722,99831150.86
+2022,North America,Hurricane/Storm,6.9,1339,62280266.54
+2022,Asia-Pacific,Flood,7.5,769,26754003.36
+2020,Asia-Pacific,Wildfire,5.2,125,4231809.46
+2021,Europe,Flood,4.1,1383,60188958.59
+2023,North America,Tornado,4.2,223,15533161.99
+2022,North America,Flood,6.6,1418,46639868.41
+2020,Asia-Pacific,Tornado,7.4,194,12848889.67
+2020,North America,Flood,5.5,976,41783135.54
+2023,Asia-Pacific,Wildfire,5.3,291,11470697.72
+2021,Asia-Pacific,Flood,6.1,1274,23433720.02
+2020,North America,Flood,6.3,1488,46362903.01
+2020,North America,Hurricane/Storm,7.4,2114,167379557.63
+2020,North America,Hurricane/Storm,6.3,1576,85905492.67
+2019,Asia-Pacific,Tornado,6.8,264,11506128.22
+2018,Asia-Pacific,Earthquake,6.6,724,53049046.7
+2023,North America,Flood,4.5,1152,40341231.01
+2019,North America,Wildfire,8.2,262,15453514.5
+2020,Europe,Hurricane/Storm,7.6,523,30562602.6
+2018,Asia-Pacific,Flood,4.3,814,24637814.26
+2023,Europe,Flood,6.7,899,23231933.77
+2022,Asia-Pacific,Tornado,7.7,109,3616436.42
+2023,Europe,Hurricane/Storm,8.7,2132,47188611.45
+2019,North America,Flood,5.8,1299,59542450.13
+2019,Europe,Wildfire,8.7,78,6899677.32
+2019,North America,Hurricane/Storm,6.3,1597,33733600.01
+2023,Asia-Pacific,Flood,7.7,924,11687234.01
+2021,North America,Wildfire,6.4,242,17873093.76
+2020,Asia-Pacific,Hurricane/Storm,6.6,1718,46404345.3
+2023,Asia-Pacific,Flood,7.4,264,5507012.72
+2022,North America,Wildfire,6.5,474,45765113.56
+2022,North America,Flood,4.4,276,11346805.92
+2022,Latin America,Earthquake,6.1,594,83454374.56
+2020,North America,Flood,5.9,1272,28511051.11
+2018,Europe,Hurricane/Storm,5.4,2421,123395458.05
+2019,Middle East & Africa,Flood,4.1,993,38277265.95
+2020,Asia-Pacific,Flood,7.7,1417,63587880.27
+2019,Europe,Wildfire,5.4,442,33648973.83
+2020,Europe,Hurricane/Storm,6.2,2327,75838654.8
+2019,North America,Flood,6.1,1103,40639992.73
+2020,North America,Flood,4.5,1475,47767920.05
+2018,North America,Hurricane/Storm,7.2,1055,30060547.26
+2023,Asia-Pacific,Flood,5.0,345,7747010.32
+2022,Latin America,Hurricane/Storm,5.2,559,26968471.32
+2019,Asia-Pacific,Flood,4.2,1073,27551067.37
+2020,Asia-Pacific,Wildfire,7.5,403,31819100.75
+2018,Asia-Pacific,Flood,7.3,1292,16979236.99
+2018,Latin America,Hurricane/Storm,7.3,690,47452032.13
+2022,Latin America,Earthquake,7.6,800,91553488.8
+2020,Asia-Pacific,Earthquake,9.3,247,33619078.04
+2023,Asia-Pacific,Tornado,5.8,179,10450526.36
+2019,Latin America,Earthquake,6.1,586,35915181.56
+2023,Europe,Wildfire,6.1,228,16486866.09
+2021,North America,Flood,7.3,419,9651576.65
+2018,Asia-Pacific,Hurricane/Storm,7.1,1320,73170447.77
+2018,North America,Flood,4.6,1187,30093605.46
+2022,Europe,Wildfire,7.4,451,44475078.99
+2020,Asia-Pacific,Flood,6.8,554,20223487.61
+2021,North America,Tornado,6.6,259,5513529.15
+2021,Asia-Pacific,Flood,4.4,1111,18939172.66
+2021,Middle East & Africa,Flood,4.4,1421,58053157.66
+2020,Europe,Earthquake,8.3,192,13778146.05
+2019,North America,Hurricane/Storm,8.0,2158,43183868.4
+2018,North America,Flood,6.1,998,34553640.88
+2020,Europe,Flood,7.5,813,26675388.78
+2021,Latin America,Flood,7.8,1090,42195697.28
+2018,Latin America,Tornado,6.6,271,10089562.49
+2018,North America,Flood,5.5,1324,64499958.4
+2021,North America,Hurricane/Storm,8.9,724,51892606.15
+2021,Latin America,Flood,6.8,1007,35253632.14
+2018,Asia-Pacific,Earthquake,7.5,316,36734606.91
+2022,Europe,Flood,5.5,937,40851801.5
+2023,North America,Tornado,7.0,78,1219775.81
+2023,Asia-Pacific,Flood,7.5,1094,53604907.18
+2018,North America,Flood,7.2,1133,51827157.5
+2019,Asia-Pacific,Tornado,6.8,242,10410312.51
+2019,Asia-Pacific,Earthquake,7.2,290,26818383.86
+2022,North America,Earthquake,8.6,829,83043317.93
+2020,Europe,Hurricane/Storm,6.5,577,31209338.38
+2018,Asia-Pacific,Flood,5.9,363,5693110.21
+2019,Asia-Pacific,Tornado,8.4,153,6207439.19
+2018,North America,Wildfire,5.4,291,21576602.24

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catastrophe Risk & Insurance Claims Analytics Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { background-color: #f3f4f6; font-family: 'Inter', sans-serif; }
+        .card { background-color: white; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); padding: 1.25rem; }
+        .kpi-title { font-size: 0.875rem; color: #6b7280; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        .kpi-value { font-size: 1.875rem; font-weight: 700; color: #111827; margin-top: 0.5rem; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header & Filters -->
+        <div class="flex justify-between items-center mb-6">
+            <div>
+                <h1 class="text-2xl font-bold text-gray-900">Catastrophe Risk & Claims Analytics</h1>
+                <p class="text-sm text-gray-500">Executive Overview Dashboard</p>
+            </div>
+            <div class="flex gap-4">
+                <select class="border rounded px-3 py-1.5 text-sm bg-white"><option>All Years</option><option>2023</option><option>2022</option></select>
+                <select class="border rounded px-3 py-1.5 text-sm bg-white"><option>All Regions</option><option>North America</option><option>Asia-Pacific</option></select>
+                <select class="border rounded px-3 py-1.5 text-sm bg-white"><option>All Disasters</option><option>Flood</option><option>Earthquake</option></select>
+            </div>
+        </div>
+
+        <!-- KPIs -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+            <div class="card border-t-4 border-blue-500">
+                <div class="kpi-title">Total Claims (M)</div>
+                <div class="kpi-value">$842.5M</div>
+                <div class="text-sm text-green-500 mt-2">↑ 12% vs Last Year</div>
+            </div>
+            <div class="card border-t-4 border-indigo-500">
+                <div class="kpi-title">Avg Claim Amount</div>
+                <div class="kpi-value">$54,200</div>
+                <div class="text-sm text-red-500 mt-2">↑ 5% vs Last Year</div>
+            </div>
+            <div class="card border-t-4 border-purple-500">
+                <div class="kpi-title">Total Disasters</div>
+                <div class="kpi-value">1,000</div>
+                <div class="text-sm text-gray-500 mt-2">Simulated Events</div>
+            </div>
+            <div class="card border-t-4 border-red-500">
+                <div class="kpi-title">Overall Risk Level</div>
+                <div class="kpi-value text-red-600">HIGH</div>
+                <div class="text-sm text-gray-500 mt-2">Based on frequency & severity</div>
+            </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+            <!-- Year-wise Trend -->
+            <div class="card col-span-2">
+                <h3 class="text-lg font-semibold mb-4 text-gray-800">Insurance Claims Trend (2018-2023)</h3>
+                <canvas id="trendChart" height="100"></canvas>
+            </div>
+            <!-- Risk Segmentation -->
+            <div class="card">
+                <h3 class="text-lg font-semibold mb-4 text-gray-800">Risk Segmentation</h3>
+                <canvas id="riskChart" height="200"></canvas>
+            </div>
+            <!-- Disaster Type Dist -->
+            <div class="card">
+                <h3 class="text-lg font-semibold mb-4 text-gray-800">Disaster Type Distribution</h3>
+                <canvas id="typeChart"></canvas>
+            </div>
+            <!-- Region-wise Loss -->
+            <div class="card col-span-2">
+                <h3 class="text-lg font-semibold mb-4 text-gray-800">Financial Loss Analysis by Region</h3>
+                <canvas id="lossChart" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Chart Styling Constants
+        const colors = {
+            blue: 'rgba(59, 130, 246, 0.8)',
+            indigo: 'rgba(99, 102, 241, 0.8)',
+            red: 'rgba(239, 68, 68, 0.8)',
+            yellow: 'rgba(245, 158, 11, 0.8)',
+            green: 'rgba(16, 185, 129, 0.8)'
+        };
+
+        // Trend Chart
+        new Chart(document.getElementById('trendChart'), {
+            type: 'line',
+            data: {
+                labels: ['2018', '2019', '2020', '2021', '2022', '2023'],
+                datasets: [{
+                    label: 'Total Claims ($M)',
+                    data: [120, 135, 125, 150, 142, 170],
+                    borderColor: colors.blue,
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+
+        // Risk Segmentation
+        new Chart(document.getElementById('riskChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['High', 'Medium', 'Low'],
+                datasets: [{
+                    data: [25, 45, 30],
+                    backgroundColor: [colors.red, colors.yellow, colors.green]
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, cutout: '70%' }
+        });
+
+        // Disaster Types
+        new Chart(document.getElementById('typeChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Flood', 'Storm', 'Earthquake', 'Wildfire', 'Tornado'],
+                datasets: [{
+                    label: 'Incidents',
+                    data: [350, 300, 150, 100, 100],
+                    backgroundColor: colors.indigo
+                }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+
+        // Regional Loss Analysis
+        new Chart(document.getElementById('lossChart'), {
+            type: 'bar',
+            data: {
+                labels: ['North America', 'Asia-Pacific', 'Europe', 'Latin America', 'Middle East'],
+                datasets: [{
+                    label: 'Financial Loss ($M)',
+                    data: [320, 280, 150, 60, 32.5],
+                    backgroundColor: colors.blue
+                }]
+            },
+            options: { responsive: true, plugins: { legend: { display: false } } }
+        });
+    </script>
+</body>
+</html>

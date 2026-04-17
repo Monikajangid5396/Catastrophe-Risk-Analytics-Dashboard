@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Catastrophe Risk & Analytics Dashboard</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Custom Data -->
+    <script src="data.js"></script>
+    <style>
+        body { background-color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .card { background-color: white; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); padding: 1.25rem; }
+        .kpi-title { font-size: 0.875rem; color: #64748b; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+        .kpi-value { font-size: 1.875rem; font-weight: 700; color: #0f172a; margin-top: 0.5rem; }
+        #map { height: 400px; border-radius: 0.5rem; z-index: 10; }
+        .leaflet-popup-content-wrapper { border-radius: 0.5rem; }
+        .leaflet-popup-content { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="p-6">
+    <div class="max-w-7xl mx-auto space-y-6">
+        <!-- Header & Filters -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
+            <div>
+                <h1 class="text-2xl font-bold text-slate-800">Global Catastrophe Risk Analytics</h1>
+                <p class="text-sm text-slate-500">Interactive Geo-Spatial & Claims Analysis</p>
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <select id="filterYear" class="border rounded px-3 py-2 text-sm bg-slate-50 text-slate-700 outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="All">All Years</option>
+                </select>
+                <select id="filterRegion" class="border rounded px-3 py-2 text-sm bg-slate-50 text-slate-700 outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="All">All Regions</option>
+                </select>
+                <select id="filterType" class="border rounded px-3 py-2 text-sm bg-slate-50 text-slate-700 outline-none focus:ring-2 focus:ring-blue-500">
+                    <option value="All">All Disaster Types</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- KPIs -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="card border-l-4 border-blue-500">
+                <div class="kpi-title">Total Claim Amount</div>
+                <div class="kpi-value" id="kpiTotalClaims">$0</div>
+            </div>
+            <div class="card border-l-4 border-indigo-500">
+                <div class="kpi-title">Avg Claim Amount</div>
+                <div class="kpi-value" id="kpiAvgClaim">$0</div>
+            </div>
+            <div class="card border-l-4 border-emerald-500">
+                <div class="kpi-title">Total Events</div>
+                <div class="kpi-value" id="kpiEvents">0</div>
+            </div>
+            <div class="card border-l-4 border-rose-500">
+                <div class="kpi-title">High Risk Zones</div>
+                <div class="kpi-value text-rose-600" id="kpiHighRisk">0</div>
+            </div>
+        </div>
+
+        <!-- Main Map & Key Charts -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Map -->
+            <div class="card lg:col-span-2 p-0 overflow-hidden border border-slate-200">
+                <div class="p-4 border-b border-slate-100 bg-slate-50">
+                    <h3 class="text-lg font-semibold text-slate-800">Dynamic Risk Geo-Map</h3>
+                    <p class="text-xs text-slate-500">Bubble size = Financial Impact | Color = Risk Level (Red: High, Yellow: Med, Green: Low)</p>
+                </div>
+                <div id="map"></div>
+            </div>
+            <!-- Trend Chart -->
+            <div class="card flex flex-col">
+                <h3 class="text-sm font-semibold mb-2 text-slate-800">Yearly Loss Trend ($M)</h3>
+                <div class="flex-grow relative h-64"><canvas id="trendChart"></canvas></div>
+            </div>
+        </div>
+
+        <!-- Secondary Charts -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="card lg:col-span-1">
+                <h3 class="text-sm font-semibold mb-2 text-slate-800">Disaster Type Distribution</h3>
+                <div class="relative h-48"><canvas id="typeChart"></canvas></div>
+            </div>
+            <div class="card lg:col-span-1">
+                <h3 class="text-sm font-semibold mb-2 text-slate-800">Risk Segmentation</h3>
+                <div class="relative h-48"><canvas id="riskChart"></canvas></div>
+            </div>
+            <div class="card lg:col-span-2">
+                <h3 class="text-sm font-semibold mb-2 text-slate-800">Regional Loss Exposure ($M)</h3>
+                <div class="relative h-48"><canvas id="regionLossChart"></canvas></div>
+            </div>
+        </div>
+        
+        <!-- Advanced Insights Charts -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+             <div class="card">
+                <h3 class="text-sm font-semibold mb-2 text-slate-800">Top 5 High-Risk Regions (Avg Risk Score)</h3>
+                <div class="relative h-56"><canvas id="topRegionsChart"></canvas></div>
+            </div>
+            <div class="card">
+                <h3 class="text-sm font-semibold mb-2 text-slate-800">Severity vs Claim Amount</h3>
+                <div class="relative h-56"><canvas id="scatterChart"></canvas></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data format from data.js: const rawData = [{year, region, lat, lon, type, severity, frequency, amount, risk_score, category}, ...]
+
+        // Format Utilities
+        const formatMoney = (val) => {
+            if (val >= 1e9) return '$' + (val / 1e9).toFixed(2) + 'B';
+            if (val >= 1e6) return '$' + (val / 1e6).toFixed(2) + 'M';
+            return '$' + val.toLocaleString();
+        };
+
+        // Initialize Filters
+        const years = [...new Set(rawData.map(d => d.year))].sort();
+        const regions = [...new Set(rawData.map(d => d.region))].sort();
+        const types = [...new Set(rawData.map(d => d.type))].sort();
+
+        const yearSelect = document.getElementById('filterYear');
+        const regionSelect = document.getElementById('filterRegion');
+        const typeSelect = document.getElementById('filterType');
+
+        years.forEach(y => { yearSelect.add(new Option(y, y)); });
+        regions.forEach(r => { regionSelect.add(new Option(r, r)); });
+        types.forEach(t => { typeSelect.add(new Option(t, t)); });
+
+        // Initialize Map
+        const map = L.map('map').setView([20, 0], 2);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+        }).addTo(map);
+        let markersLayer = L.layerGroup().addTo(map);
+
+        // Chart References
+        let charts = {};
+
+        // Colors
+        const colors = {
+            High: '#ef4444', // red
+            Medium: '#f59e0b', // yellow
+            Low: '#10b981', // green
+            blue: 'rgba(59, 130, 246, 0.8)',
+            indigo: 'rgba(99, 102, 241, 0.8)',
+            slate: 'rgba(100, 116, 139, 0.8)'
+        };
+
+        // Update Dashboard Function
+        function updateDashboard() {
+            const fYear = yearSelect.value;
+            const fRegion = regionSelect.value;
+            const fType = typeSelect.value;
+
+            // Filter Data
+            const data = rawData.filter(d => {
+                return (fYear === 'All' || d.year == fYear) &&
+                       (fRegion === 'All' || d.region === fRegion) &&
+                       (fType === 'All' || d.type === fType);
+            });
+
+            // 1. Update KPIs
+            const totalAmount = data.reduce((sum, d) => sum + d.amount, 0);
+            const avgAmount = data.length ? totalAmount / data.length : 0;
+            const highRiskCount = [...new Set(data.filter(d => d.category === 'High').map(d => d.region))].length;
+
+            document.getElementById('kpiTotalClaims').innerText = formatMoney(totalAmount);
+            document.getElementById('kpiAvgClaim').innerText = formatMoney(avgAmount);
+            document.getElementById('kpiEvents').innerText = data.length.toLocaleString();
+            document.getElementById('kpiHighRisk').innerText = highRiskCount;
+
+            // 2. Update Map
+            markersLayer.clearLayers();
+            
+            // Group data by region for map bubbles to avoid 2000 overlapping dots
+            const mapData = {};
+            data.forEach(d => {
+                if(!mapData[d.region]) {
+                    mapData[d.region] = { lat: d.lat, lon: d.lon, amount: 0, events: 0, riskSum: 0, typeCount: {} };
+                }
+                mapData[d.region].amount += d.amount;
+                mapData[d.region].events += 1;
+                mapData[d.region].riskSum += d.risk_score;
+                mapData[d.region].typeCount[d.type] = (mapData[d.region].typeCount[d.type] || 0) + 1;
+            });
+
+            // Find max amount for bubble scaling
+            const maxMapAmount = Math.max(...Object.values(mapData).map(m => m.amount), 1);
+
+            for (const [region, info] of Object.entries(mapData)) {
+                const avgRisk = info.riskSum / info.events;
+                const color = avgRisk >= 70 ? colors.High : (avgRisk >= 40 ? colors.Medium : colors.Low);
+                const radius = Math.max(5, (info.amount / maxMapAmount) * 30); // 5 to 30 px
+                
+                // dominant type
+                let domType = Object.keys(info.typeCount).reduce((a, b) => info.typeCount[a] > info.typeCount[b] ? a : b);
+
+                const marker = L.circleMarker([info.lat, info.lon], {
+                    radius: radius,
+                    fillColor: color,
+                    color: '#fff',
+                    weight: 1,
+                    opacity: 1,
+                    fillOpacity: 0.7
+                });
+
+                marker.bindPopup(`
+                    <div class="p-2">
+                        <strong class="text-sm block mb-1">${region}</strong>
+                        <span class="text-xs text-gray-500 block">Total Claims: ${formatMoney(info.amount)}</span>
+                        <span class="text-xs text-gray-500 block">Events: ${info.events}</span>
+                        <span class="text-xs text-gray-500 block">Avg Risk Score: ${avgRisk.toFixed(1)}/100</span>
+                        <span class="text-xs text-gray-500 block">Dominant Peril: ${domType}</span>
+                    </div>
+                `);
+                markersLayer.addLayer(marker);
+            }
+
+            // 3. Prepare Chart Data
+            // Trend (Yearly Loss)
+            const trendData = {};
+            years.forEach(y => trendData[y] = 0);
+            data.forEach(d => trendData[d.year] += d.amount);
+
+            // Disaster Type Distribution
+            const typeDist = {};
+            data.forEach(d => typeDist[d.type] = (typeDist[d.type] || 0) + 1);
+
+            // Risk Segmentation
+            const riskSeg = { High: 0, Medium: 0, Low: 0 };
+            data.forEach(d => riskSeg[d.category]++);
+
+            // Regional Loss
+            const regLoss = {};
+            data.forEach(d => regLoss[d.region] = (regLoss[d.region] || 0) + d.amount);
+            const sortedRegions = Object.keys(regLoss).sort((a,b) => regLoss[b] - regLoss[a]);
+
+            // Top 5 High Risk Regions
+            const regRisk = {};
+            data.forEach(d => {
+                if(!regRisk[d.region]) regRisk[d.region] = { sum: 0, cnt: 0 };
+                regRisk[d.region].sum += d.risk_score;
+                regRisk[d.region].cnt += 1;
+            });
+            const top5Risk = Object.keys(regRisk)
+                .map(r => ({ name: r, risk: regRisk[r].sum / regRisk[r].cnt }))
+                .sort((a,b) => b.risk - a.risk).slice(0, 5);
+
+            // Scatter Data
+            const scatterData = data.slice(0, 500).map(d => ({ x: d.severity, y: d.amount / 1000000 }));
+
+            // 4. Update or Create Charts
+            if(charts.trend) charts.trend.destroy();
+            charts.trend = new Chart(document.getElementById('trendChart'), {
+                type: 'line',
+                data: {
+                    labels: Object.keys(trendData),
+                    datasets: [{
+                        label: 'Total Loss ($M)',
+                        data: Object.values(trendData).map(v => v / 1000000),
+                        borderColor: colors.blue,
+                        backgroundColor: 'rgba(59, 130, 246, 0.2)',
+                        fill: true,
+                        tension: 0.3,
+                        pointRadius: 2
+                    }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+            });
+
+            if(charts.type) charts.type.destroy();
+            charts.type = new Chart(document.getElementById('typeChart'), {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(typeDist),
+                    datasets: [{ data: Object.values(typeDist), backgroundColor: colors.indigo }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+            });
+
+            if(charts.risk) charts.risk.destroy();
+            charts.risk = new Chart(document.getElementById('riskChart'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['High', 'Medium', 'Low'],
+                    datasets: [{ data: [riskSeg.High, riskSeg.Medium, riskSeg.Low], backgroundColor: [colors.High, colors.Medium, colors.Low] }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, cutout: '70%' }
+            });
+
+            if(charts.regLoss) charts.regLoss.destroy();
+            charts.regLoss = new Chart(document.getElementById('regionLossChart'), {
+                type: 'bar',
+                data: {
+                    labels: sortedRegions.slice(0, 8), // top 8
+                    datasets: [{ data: sortedRegions.slice(0, 8).map(r => regLoss[r]/1e6), backgroundColor: colors.slate }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } } }
+            });
+            
+            if(charts.topRisk) charts.topRisk.destroy();
+            charts.topRisk = new Chart(document.getElementById('topRegionsChart'), {
+                type: 'bar',
+                data: {
+                    labels: top5Risk.map(r => r.name),
+                    datasets: [{ data: top5Risk.map(r => r.risk), backgroundColor: colors.High }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, indexAxis: 'y' }
+            });
+
+            if(charts.scatter) charts.scatter.destroy();
+            charts.scatter = new Chart(document.getElementById('scatterChart'), {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Events',
+                        data: scatterData,
+                        backgroundColor: 'rgba(239, 68, 68, 0.5)'
+                    }]
+                },
+                options: { 
+                    responsive: true, maintainAspectRatio: false, 
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { title: { display: true, text: 'Severity Score' } },
+                        y: { title: { display: true, text: 'Claim Amount ($M)' } }
+                    }
+                }
+            });
+        }
+
+        // Event Listeners
+        yearSelect.addEventListener('change', updateDashboard);
+        regionSelect.addEventListener('change', updateDashboard);
+        typeSelect.addEventListener('change', updateDashboard);
+
+        // Initial render
+        updateDashboard();
+    </script>
+</body>
+</html>
